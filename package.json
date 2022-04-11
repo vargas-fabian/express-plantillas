@@ -1,0 +1,24 @@
+{
+  "name": "express-avanzado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pug": "node ./pug/index.js",
+    "hbs": "node ./handlebars/index.js",
+    "ejs": "node ./ejs/index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-form-data": "^2.0.17",
+    "express-handlebars": "^6.0.4",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
+  }
+}

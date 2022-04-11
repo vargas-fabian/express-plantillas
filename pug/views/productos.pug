@@ -1,0 +1,11 @@
+h1="vista de productos"
+if productos.length
+    h1="Lista de productos:"
+    ul
+    each element in productos
+        li= element.producto.title
+else
+    h3="No se encontraron productos"
+p="Puedes cargar productos:"
+a(href='/')="Cargar"
+
